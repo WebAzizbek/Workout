@@ -1,0 +1,30 @@
+.header {
+    margin-top: 49px;
+    .header__container {
+        width: 100%;
+        max-width: 1312px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.header__logo {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header__item {
+}
+.header__item-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
